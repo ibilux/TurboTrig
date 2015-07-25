@@ -6,18 +6,18 @@
  To add the TurboTrig library, simply drag the main folder into the libraries subdirectory of your Arduino IDE sketch folder.<br>
  
 ### Example
- #include <TurboTrig.h>
- void setup() {
-    Serial.begin(9600);
-    Serial.println("sin(15): ");
-    Serial.println(sin(PI/6));
-    Serial.println("TurboTrig.sin(PI/6): ");
-    Serial.println(TurboTrig.sin(15));
-    Serial.println("TurboTrig.sinx(180/6): ");
-    Serial.println(TurboTrig.sinx(15));
- }
- void loop() {
- }
+ #include <TurboTrig.h><br>
+ void setup() {<br>
+    Serial.begin(9600);<br>
+    Serial.println("sin(15): ");<br>
+    Serial.println(sin(PI/6));<br>
+    Serial.println("TurboTrig.sin(PI/6): ");<br>
+    Serial.println(TurboTrig.sin(15));<br>
+    Serial.println("TurboTrig.sinx(180/6): ");<br>
+    Serial.println(TurboTrig.sinx(15));<br>
+ }<br>
+ void loop() {<br>
+ }<br>
  
 ### Features
  The TurboTrig library containes:<br>
