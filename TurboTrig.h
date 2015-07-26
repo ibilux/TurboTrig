@@ -18,9 +18,9 @@
 //Arduino libraries:
 #include "Arduino.h"
 
-class Speed_Trig {
+class Turbo_Trig {
   public:
-    Speed_Trig();
+    Turbo_Trig();
     int floatToInt(float input);
     float sin(float rad);
     float cos(float rad);
@@ -32,7 +32,7 @@ class Speed_Trig {
 };
 
 //Create class to use:
-extern Speed_Trig TurboTrig;
+extern Turbo_Trig TurboTrig;
 
 #endif //#ifndef TurboTrig_h
 
